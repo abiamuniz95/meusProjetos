@@ -1,0 +1,58 @@
+html{
+	cursor: url(imagens/covid-2.png) 50 50, auto;
+
+}
+
+body{
+	background-image: url(imagens/congresso.jpg);
+	background-repeat: no-repeat;
+}
+#bozo{
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+#perdeu{
+	margin: center;
+	width: 450px;
+	height: 450px; 
+}
+.wins{
+	margin-top:150px ;
+	margin-bottom: 30px;
+}
+.bozo1{
+	width: 90px;
+	height: 90px;
+}
+.bozo2{
+	width: 110px;
+	height: 110px;
+}
+.bozo3{
+	width: 130px;
+	height: 130px;
+}
+.ladoA{
+	transform: scaleX(1); 
+}
+.ladoB{
+	transform: scaleX(-1);
+}
+.painel{
+	position: absolute;
+	width: 190px;
+	padding: 0px;
+	left: 0px;
+	bottom: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+.vidas{
+	float: left;
+}
+.cronometro{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
